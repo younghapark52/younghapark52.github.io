@@ -7,6 +7,26 @@ date: 2025-11-21
 
 저는 완전탐색으로 풀었지만, 에디토리얼 풀이는 다음과 같습니다.
 
-1. $n$이 홀수인 경우: 가능한 구성 없음.
+$n$이 홀수인 경우, 가능한 구성은 없습니다.
 
-2. $n$이 짝수인 경우: 소가 가진 다리 수를 먼저 생각해봅시다. 이 값은 $n$ 이하의 4의 배수입니다. 나머지 다리는 닭의 다리가 됩니다. 따라서 답은 $n$ 이하의 음이 아닌 4의 배수의 개수이고, 이는 $\left\lfloor 4n \right\rfloor + 1$입니다.
+$n$이 짝수인 경우, 소의 다리 수가 닭의 다리 수를 결정합니다.
+답은 $n$ 이하의 음이 아닌 4의 배수의 개수이고, 이는 $\left\lfloor 4n \right\rfloor + 1$입니다.
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve() {
+    int n;
+    cin >> n;
+    cout << (n & 1 ? 0 : n / 4 + 1) << '\n';
+}
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    cin >> t;
+    while (t--) solve();
+}
+```
