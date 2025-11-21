@@ -6,3 +6,5 @@ p {
   font-size: 0.7rem !important;
   font-family: 'Pretendard', sans-serif !important;
 }
+
+code { font-size: 0.7rem !important; }
