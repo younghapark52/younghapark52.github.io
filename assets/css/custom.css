@@ -1,12 +1,12 @@
-h1 { font-size: 1.0rem !important; }
-h2 { font-size: 0.9rem !important; }
-h3 { font-size: 0.8rem !important; }
+h1 { font-size: 1.1rem !important; }
+h2 { font-size: 1.0rem !important; }
+h3 { font-size: 0.9rem !important; }
 
 p {
-  font-size: 0.7rem !important;
+  font-size: 0.8rem !important;
   font-family: 'Pretendard', sans-serif !important;
 }
 
 code { font-size: 0.7rem !important; }
-ol { font-size: 0.7rem !important; }
-ul { font-size: 0.7rem !important; }
+ol { font-size: 0.8rem !important; }
+ul { font-size: 0.8rem !important; }
