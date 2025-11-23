@@ -5,8 +5,12 @@ h3 { font-size: 0.9rem !important; }
 p {
   font-size: 0.8rem !important;
   font-family: 'Pretendard', sans-serif !important;
+  line-height: 1.6;
 }
 
-code { font-size: 0.7rem !important; }
+pre { 
+  font-size: 0.6rem !important;
+  line-height: 1.4;
+}
 ol { font-size: 0.8rem !important; }
 ul { font-size: 0.8rem !important; }
